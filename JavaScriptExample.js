@@ -37,7 +37,7 @@ function fldIsBlank( inString )
 
 function fldValidateList( inString, inValidValues )
 {
-	if (fldIsBlank(inValidValue))
+	if (fldIsBlank(inValidValues))
 		return false;
 
 	var workValidValues	= new Array(inValidValues.split(','));
